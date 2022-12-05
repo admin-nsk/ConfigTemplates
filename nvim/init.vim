@@ -385,4 +385,3 @@ set termguicolors
 hi DiagnosticError guifg=White
 hi DiagnosticWarn  guifg=White
 hi DiagnosticInfo  guifg=White
-hi DiagnosticHint  guifg=White
