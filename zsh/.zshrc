@@ -114,16 +114,3 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# Paths
-export PATH="/home/alexdev/.local/bin:$PATH"
-
-# Aliases
-alias psw='cat ~/info/acc|grep -n5 $1'
-
-#EF
-alias efdev='ssh -o ServerAliveInterval=60 alexdev@168.119.89.161 -p 4589'
-alias efre='ssh alexdev@168.119.89.161 -p 4593'
-alias efprod='ssh alexdev@168.119.89.161 -p 4590'
-
-# Delfin
-alias psw='cat ~/info/acc|grep -n5 $1'
